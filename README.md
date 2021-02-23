@@ -102,27 +102,6 @@ The following Gif provides a demonstration of the application's functionalities:
 ​
 ---
 ​
-## Future Development
-​
-These are some improved functionalities we want to add to the project in the near future:
-​
-* Integrate appointment management through each specific user. As of right now, all users are integrated into a global database that shares appointments, services, and patients. The goal is for each user to display their own patients and appointments.
-​
-* Only one service per patient can be created. In the future, we would like to add more than one service to each patient.
-​
-* Integrate files for each patient, showing their service/treatment history. In addition, we want to add some kind of documentation visualizer so users can access patients' documents (for example, reports or X-Ray charts).
-​
-* Create a payment and balance system for appointments showing patients' current or pending payments and total balance owed. 
-​
-* General improvement to user's functionalities and interface: a status showing what user is logged in, and a functionality to edit or add users' information to the profile page.
-​
-* Integrate medical inventory to services: costs of materials needed for treatments, status of available materials, and capacity to order/reorder more inventory. 
-​
-* Integrate an email/calendar system for patients: send email remainders to patients about upcoming appointments and develop a connection to a calendar API that can help patients integrate their appointments to their schedules. 
-​
-* Create a separate User system for clients, so they can also access their information, balance account, and appointments online. 
-​
-
 ​
 ---
 ​
