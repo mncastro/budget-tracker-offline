@@ -64,7 +64,7 @@ If you are interested in running **Budget Tracker** locally, you can follow thes
 ​​
 4. After everything is set, you can then run the application using nodemon or `npm start` using Node in your terminal. After, navigate to your localhost connection on your preferred web browser. 
 ​
-Or, alternatively, you can use the demo page we deployed on a [Heroku](https://www.heroku.com/platform) external server. You can access the functional app [here](https://pacific-thicket-69674.herokuapp.com/?id=602b5cebdd13f30015a317fa). 
+Or, alternatively, you can use the demo page we deployed on a [Heroku](https://www.heroku.com/platform) external server. You can access the functional app [here](https://vast-woodland-94625.herokuapp.com/). 
 ​
 
 ​
