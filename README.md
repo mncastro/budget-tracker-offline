@@ -21,14 +21,14 @@
 ​
 ​
 ``
-AS a fitness amateur,
-I NEED an application that can track my workout routines
-AND displays my fitness statistics on a visual dashboard.  
+AS a career professional,
+I NEED an application where I can KEEP TRACK of my expenses and income
+AND display a graph with the fluctuations of my monthly expenses.  
 ``
 ​
 
 ​
-**Fitness Tracker** is a web application where the user can register resistance and/or cardio workout routines and keep track of their exercises statistics. The application displays the stats of the current exercise and displays them through a variety of visual tools, such as piecharts and linecharts.  
+**Budget Tracker** is a Progressive Web Application (PWA) where the user can register income and deduct expenses from their monthly budget. The application displays the stats of currennt expenses in a chart. As a PWA, the application is fully functional online and offline.  
 ​
 
 ​
@@ -38,9 +38,10 @@ AND displays my fitness statistics on a visual dashboard.
 ​
 Currently, the system offers the following *features*:
 ​
-* Users can create a new workout routine and input the exercise's info (weight, distance, duration, sets, repetitions and time).
-* Users can continue doing the same workout or create a new routine. 
-* All routines and workouts are stored in a database and their statistics are displayed inn linecharts and piecharts on a separate dashboard. 
+* Users can add an amount of income.
+* Users can then add more momey to the account or deduct expenses from the savings. 
+* Users can add the name/title/reference of expenses and the application lists all money transactions as a table. 
+* Expenses and income are tracked and diplayed in a linechart. 
 ​
 
 ​
@@ -48,20 +49,20 @@ Currently, the system offers the following *features*:
 ​
 ## Dependencies and Libraries
 ​
-The application was designed and programmed through a combination of *JavaScript*, *pure HTML*, *pure CSS*, *Express*, *Node.Js* and *Bootstrap*. The database functionality was developed using MongoDB and the mongoose npm library. The application is functional and hosted in a *Heroku* external server.
+The application was designed and programmed through a combination of *JavaScript*, *pure HTML*, *pure CSS*, *Express*, *Node.Js* and *Bootstrap*. The database functionality was developed using MongoDB and the mongoose npm library. The application is functional and hosted in a *Heroku* external server. As a PWA, the application has a *manifest.json* and an online/offline *Service Worker*.
 ​
 ​
 ---
 ​
 ## Installation
 ​
-If you are interested in running **DentApp** locally, you can follow these steps:
+If you are interested in running **Budget Tracker** locally, you can follow these steps:
 ​
 1. Clone or download the repo.
 ​
 2. Using your terminal, navigate into the main repository and run `npm install` in order to install all npm and NodeJS dependencies and libraries (you may also need to install MongoDB or change the database dialect of the schema file).
 ​​
-4. After everything is set, you can then run the application `server.js` using Node in your terminal. After, navigate to your localhost connection on your preferred web browser. 
+4. After everything is set, you can then run the application using nodemon or `npm start` using Node in your terminal. After, navigate to your localhost connection on your preferred web browser. 
 ​
 Or, alternatively, you can use the demo page we deployed on a [Heroku](https://www.heroku.com/platform) external server. You can access the functional app [here](https://pacific-thicket-69674.herokuapp.com/?id=602b5cebdd13f30015a317fa). 
 ​
