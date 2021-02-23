@@ -76,32 +76,19 @@ Or, alternatively, you can use the demo page we deployed on a [Heroku](https://w
 The following Gif provides a demonstration of the application's functionalities:
 
 ​
-![Demo](./Develop/public/assets/Fitness-Tracker.gif)
+![Demo](./public/assets/budget-tracker-demo.gif)
 
-![Screenshot 1](./Develop/public/assets/tracker-demo-1.png)
-
-![Screenshot 2](./Develop/public/assets/tracker-demo-2.png)
+![Screenshot 1](./public/assets/budget-tracker-demo-pic.png)
 
 
 
-​
-
-​
 ---
 ​
 ## Licenses
 ​
 
-​
-​
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-​
-​
 
-
-​
----
-​
 ​
 ---
 ​
