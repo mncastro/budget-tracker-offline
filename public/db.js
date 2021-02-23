@@ -1,7 +1,7 @@
 // Variable for storing data
 let db;
 
-// Sent data to indexedDB
+// Sent data to indexedDB, open function has to coinncide with server.js name!
 const request = indexedDB.open("budget", 1);
 
 request.onupgradeneeded = function(event) {

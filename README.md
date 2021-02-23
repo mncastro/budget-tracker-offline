@@ -1,63 +1,133 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# Unit 18 PWA: Online/Offline Budget Tracker
+​
+---
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+​
+1. [Description and User's Story](#description-and-user's-story)
+2. [Functionalities](#functionalities)
+3. [Dependencies and Libraries](#list-of-dependencies-and-libraries) 
+4. [Installation](#installation)
+5. [Demo](#demo)
+6. [Licenses](#licenses)
+7. [Credits and Acknowledgements](#credits-and-acknowledgements) 
+​
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+​
+---
+​
+## Description and User's Story 
+​
 
-Offline Functionality:
+​
+​
+``
+AS a fitness amateur,
+I NEED an application that can track my workout routines
+AND displays my fitness statistics on a visual dashboard.  
+``
+​
 
-  * Enter deposits offline
+​
+**Fitness Tracker** is a web application where the user can register resistance and/or cardio workout routines and keep track of their exercises statistics. The application displays the stats of the current exercise and displays them through a variety of visual tools, such as piecharts and linecharts.  
+​
 
-  * Enter expenses offline
+​
+---
+​
+## Functionalities
+​
+Currently, the system offers the following *features*:
+​
+* Users can create a new workout routine and input the exercise's info (weight, distance, duration, sets, repetitions and time).
+* Users can continue doing the same workout or create a new routine. 
+* All routines and workouts are stored in a database and their statistics are displayed inn linecharts and piecharts on a separate dashboard. 
+​
 
-When brought back online:
+​
+---
+​
+## Dependencies and Libraries
+​
+The application was designed and programmed through a combination of *JavaScript*, *pure HTML*, *pure CSS*, *Express*, *Node.Js* and *Bootstrap*. The database functionality was developed using MongoDB and the mongoose npm library. The application is functional and hosted in a *Heroku* external server.
+​
+​
+---
+​
+## Installation
+​
+If you are interested in running **DentApp** locally, you can follow these steps:
+​
+1. Clone or download the repo.
+​
+2. Using your terminal, navigate into the main repository and run `npm install` in order to install all npm and NodeJS dependencies and libraries (you may also need to install MongoDB or change the database dialect of the schema file).
+​​
+4. After everything is set, you can then run the application `server.js` using Node in your terminal. After, navigate to your localhost connection on your preferred web browser. 
+​
+Or, alternatively, you can use the demo page we deployed on a [Heroku](https://www.heroku.com/platform) external server. You can access the functional app [here](https://pacific-thicket-69674.herokuapp.com/?id=602b5cebdd13f30015a317fa). 
+​
 
-  * Offline entries should be added to tracker.
+​
+---
+​
+​
+## Demo
+​
+The following Gif provides a demonstration of the application's functionalities:
 
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+​
+![Demo](./Develop/public/assets/Fitness-Tracker.gif)
 
-## Business Context
+![Screenshot 1](./Develop/public/assets/tracker-demo-1.png)
 
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+![Screenshot 2](./Develop/public/assets/tracker-demo-2.png)
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
 
-- - -
+​
 
-## Commit Early and Often
+​
+---
+​
+## Licenses
+​
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+​
+​
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+​
+​
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+​
+---
+​
+## Future Development
+​
+These are some improved functionalities we want to add to the project in the near future:
+​
+* Integrate appointment management through each specific user. As of right now, all users are integrated into a global database that shares appointments, services, and patients. The goal is for each user to display their own patients and appointments.
+​
+* Only one service per patient can be created. In the future, we would like to add more than one service to each patient.
+​
+* Integrate files for each patient, showing their service/treatment history. In addition, we want to add some kind of documentation visualizer so users can access patients' documents (for example, reports or X-Ray charts).
+​
+* Create a payment and balance system for appointments showing patients' current or pending payments and total balance owed. 
+​
+* General improvement to user's functionalities and interface: a status showing what user is logged in, and a functionality to edit or add users' information to the profile page.
+​
+* Integrate medical inventory to services: costs of materials needed for treatments, status of available materials, and capacity to order/reorder more inventory. 
+​
+* Integrate an email/calendar system for patients: send email remainders to patients about upcoming appointments and develop a connection to a calendar API that can help patients integrate their appointments to their schedules. 
+​
+* Create a separate User system for clients, so they can also access their information, balance account, and appointments online. 
+​
 
-* Follow these guidelines for committing:
-
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-  * Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
-
+​
+---
+​
+## Credits and Acknowledgements
+​
+This project was expanded and finished, from the base assignment code, by:
+​
+* **Mario N. Castro Villarreal** [Github: mncastro](https://github.com/mncastro)
+​
